@@ -1,0 +1,30 @@
+$(document).ready(function(){
+    $("#form").validate({
+        rules:{
+            textname:{
+                required:true
+            },
+            Email:{
+                required:true,
+                email:true
+            },
+            mobileno:{
+                required:true,
+                digits:true
+            },
+            gender:{
+                required:true
+
+            },
+            day:{
+                required:true
+            },
+            month:{
+                required:true
+            },
+            year:{
+                required:true
+            }
+        }
+    })
+})
